@@ -1,0 +1,19 @@
+{
+  "name": "PW_accesibility_testing_POC",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jesusruizGL/PW_accesibility_testing_POC.git",
+  "author": "Jesus Ruiz Barreto <jesus.ruiz@gorillalogic.com>",
+  "license": "MIT",
+  "scripts": {
+    "test-ui": "npx playwright test--ui",
+    "test": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.24"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.8.5"
+  }
+}
